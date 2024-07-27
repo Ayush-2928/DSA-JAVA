@@ -3,7 +3,7 @@ package Week1_Day2;
 public class binary_search {
 
 /*
-    static boolean binarySearch(int [] arr, int n, int i, int j){//take i,j for limiting the search area
+    static boolean binarySearch(int [] arr, int n, int i, int j){   //take i,j for limiting the search area
      //   int i=0; 
        // int j= arr.length-1;
         while (i<=j) {
