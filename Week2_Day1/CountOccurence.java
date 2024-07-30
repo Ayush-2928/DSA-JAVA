@@ -65,7 +65,6 @@ public class CountOccurence {
     public static void main(String[] args) {
         int num = 5;
         int[] arr={1,2,5,5,5,5,7,8,9};
-
          System.out.println(countOccurence(arr, num));
     }   
 }

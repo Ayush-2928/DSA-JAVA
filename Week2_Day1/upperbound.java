@@ -16,7 +16,8 @@ public class upperbound {
             }
               else if (arr[mid] <num){
                 low=mid+1;
-              }       
+              }     
+                
             else
             high=mid -1;
         }
