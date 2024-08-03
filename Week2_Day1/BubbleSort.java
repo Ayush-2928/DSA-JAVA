@@ -15,8 +15,13 @@ public class BubbleSort {
         }           
     } 
     static void display (int [] arr){
-    for(int i:arr )
+   //using for each loop
+        for(int i:arr )
     System.out.print(i + " ");
+    //using for loop
+    System.out.println();
+    for(int i= 0;i<arr.length;i++)
+    System.out.print(arr[i] + " ");
         System.out.println();
     }
     public static void main(String[] args) {
