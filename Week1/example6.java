@@ -1,6 +1,7 @@
 package Week1;
 //check if a no is armstrong or not.
 //doubt
+import java.util.*;
 public class example6 {
     static int digits(int n){
         int count=0;
@@ -21,6 +22,8 @@ public class example6 {
         return (sum==temp);
     }
     public static void main(String[] args) {
-        System.out.println(armstrong(1));
+        Scanner sc= new Scanner(System.in);
+        int n=sc.nextInt();
+        System.out.println(armstrong(n));
     }
 }

@@ -1,5 +1,8 @@
 package Week1;
 
+
+
+import java.util.*;
 public class example3 {
     //prime or not 
     static boolean checkPrime (int n){
@@ -10,9 +13,14 @@ public class example3 {
                             
         }
         public static void main(String[] args) {
-            int n=2;
+            Scanner sc=new Scanner(System.in);
+        int n =sc.nextInt();
            
-            System.out.println(checkPrime(n));
+            if (checkPrime(n)) {
+                System.out.println("Prime");
+            } else {
+                System.out.println("Not Prime");
+            }
             
         }
     }
