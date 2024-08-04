@@ -1,7 +1,7 @@
 package Week3_Day1;
-
+//q53 sub array
 public class MaxSubArray {
-   
+    //kadane algo is the best method for maxSUBARRAY
         //   int sum (int [] nums, int a,int b){
           //     int sum=0;
             //   for(int i =a;i<=b;i++)
