@@ -16,6 +16,9 @@ public class NGEL {
         int[] num=NGEL(arr);
         for (int i : num) {
             System.out.print(i + " ");
+            for (int j : num) {
+                
+            }
         }
     }
 }
