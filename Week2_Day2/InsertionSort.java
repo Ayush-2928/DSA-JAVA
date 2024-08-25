@@ -6,9 +6,9 @@ import java.util.*;
 public class InsertionSort {
     
     static void insertionSort(int arr[]){
-        int n=arr.length; //not used
+      
         for (int i = 1; i < arr.length; i++) {
-            int key=arr[i];
+            int key=arr[i]; 
             int j=i-1;
             while (j>=0 && arr[j]>key) {
                 arr[j+1]=arr[j];
@@ -19,7 +19,7 @@ public class InsertionSort {
     }
     static void display(int [] arr){
 
-        for (int i : arr) {
+        for (int i : arr) { 
             System.out.print(i + " ");
               
         }
