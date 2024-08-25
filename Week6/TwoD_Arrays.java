@@ -36,7 +36,7 @@ public class TwoD_Arrays {
     static int[] search (int [][] nums, int n){
         int [] ans=new int[2];
         for (int i = 0; i < nums.length; i++) {
-            for (int j = 0; j < nums.length; j++) {
+            for (int j = 0; j < nums[0].length; j++) {
                 if (nums[i][j]==n) {
                     ans[0]=i;
                     ans[1]=j;
