@@ -117,13 +117,6 @@ public class TwoD_Arrays {
       // System.out.println("i :" + indices[0] + `" j :" + indices [1]);
       //  transpose(nums);
 
-
-
-
-
-
-
-
     //  int []arr= new int[5];//1d array
     //  int [] arr={1,2,3,4}; //another way for 1d array
     //  for (int i = 0; i < arr.length; i++) {
