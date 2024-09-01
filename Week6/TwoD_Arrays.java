@@ -36,7 +36,7 @@ public class TwoD_Arrays {
     static int[] search (int [][] nums, int n){
         int [] ans=new int[2];
         for (int i = 0; i < nums.length; i++) {
-            for (int j = 0; j < nums.length; j++) {
+            for (int j = 0; j < nums[0].length; j++) {
                 if (nums[i][j]==n) {
                     ans[0]=i;
                     ans[1]=j;
@@ -116,13 +116,6 @@ public class TwoD_Arrays {
       //  int [] indices=search(nums, 9); //for linear search
       // System.out.println("i :" + indices[0] + `" j :" + indices [1]);
       //  transpose(nums);
-
-
-
-
-
-
-
 
     //  int []arr= new int[5];//1d array
     //  int [] arr={1,2,3,4}; //another way for 1d array
