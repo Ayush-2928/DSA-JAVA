@@ -6,8 +6,10 @@ public class recursion2 {
     public static void main(String[] args) {
        // System.out.println(fibonacciSeries(5));
        // generate_subsequences("Car", "");
-        head_tail(2, "");
-       System.out.println(countHeadTail(3));
+       System.out.println(countSubSequence("Car"));
+       // head_tail(2, "");
+      //  System.out.println(countHeadTail(3));
+
        
     }
 
@@ -28,6 +30,14 @@ public class recursion2 {
         generate_subsequences(ques.substring(1), ans);
     }
 
+    static int countSubSequence(String ques){
+        if (ques.length()==0) {
+            return 1;
+        }
+        int x=2*countSubSequence(ques.substring(1));
+        return x;
+    }
+
     static void head_tail(int n,String ans){
         if (n==0) {
             System.out.println(ans);
@@ -42,6 +52,10 @@ public class recursion2 {
         }
         int x=2*countHeadTail(n-1) ;
         return x;
+    }
+//generate valid parenthesis 
+    static void parenthesis (int n,String ans){
+        
     }
 
     }
