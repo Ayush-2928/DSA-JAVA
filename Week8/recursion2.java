@@ -7,6 +7,7 @@ public class recursion2 {
        // System.out.println(fibonacciSeries(5));
        // generate_subsequences("Car", "");
         head_tail(2, "");
+       System.out.println(countHeadTail(3));
        
     }
 
@@ -34,6 +35,13 @@ public class recursion2 {
         }
         head_tail(n-1, ans+"H");
         head_tail(n-1, ans.concat("T"));//diff ways to write both
+    }
+    static int countHeadTail(int n){
+        if (n==0||n==1) {
+            return 2*n;
+        }
+        int x=2*countHeadTail(n-1) ;
+        return x;
     }
 
     }
