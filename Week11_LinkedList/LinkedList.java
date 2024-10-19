@@ -1,4 +1,4 @@
-package Week11;
+package Week11_LinkedList;
 
 public class LinkedList {
     class Node{
