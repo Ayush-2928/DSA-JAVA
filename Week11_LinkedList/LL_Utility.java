@@ -1,4 +1,4 @@
-package Week11;
+package Week11_LinkedList;
 
 public class LL_Utility {
     public static void main(String[] args) {

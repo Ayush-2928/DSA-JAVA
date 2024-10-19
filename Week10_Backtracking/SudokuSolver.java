@@ -1,4 +1,4 @@
-package Week10;
+package Week10_Backtracking;
 
 import java.util.Scanner;
 
