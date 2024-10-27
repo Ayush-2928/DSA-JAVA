@@ -1,4 +1,4 @@
-package Week9;
+package Week9_OOPS;
 
 public class Cats extends Animals {//inheritance
    private String name ="NA";//private name means it cannot be used by other classes

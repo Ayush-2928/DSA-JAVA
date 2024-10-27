@@ -1,4 +1,4 @@
-package Week8;
+package Week8_OOPS;
 
 public class Cat {
     String name;
