@@ -1,4 +1,4 @@
-package Week9;
+package Week9_OOPS;
 
 public class Animals {
     int legs=-1;
